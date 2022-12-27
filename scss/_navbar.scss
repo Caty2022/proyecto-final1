@@ -1,0 +1,31 @@
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $primary-color
+
+}
+
+
+.navbar-light .navbar-brand {
+    text-transform: uppercase;
+   
+    letter-spacing: 2px;
+     font-size:25px;
+    color:$third-color;
+
+ 
+
+    
+    
+}
+
+.navbar-ligth .navbar-brand:focus, 
+.navbar-ligth .navbar-brand:hover {
+    color: $third-color;
+
+}
+
+.navbar-ligth .navbar-nav .navbar-link {
+    color: $third-color;
+}

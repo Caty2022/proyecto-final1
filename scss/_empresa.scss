@@ -1,0 +1,36 @@
+.empresa-imagenes img {
+  border-radius: 20px;
+
+  &:hover {box-shadow:0px 1px 10px rgba(0, 0, 0, 0.4); 
+
+  }
+}
+
+
+.empresa-texto p {
+line-height: 1.9;
+text-align: justify;
+}
+
+.img-fluid {
+    height: 500px;
+    width: 500px;
+}
+
+.team .card-body i {
+    font-size: 20px;
+}
+
+.card .card-body:hover {
+ 
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+
+
+.card img {
+    width: 9rem;
+   
+}

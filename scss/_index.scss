@@ -1,0 +1,172 @@
+body {
+    font-family:  'Montserrat', sans-serif;
+    background: #f1fbff;
+    
+}
+
+
+  
+.section-padding {
+    padding: 100px 0;
+    
+   
+}
+    
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}   
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+
+    h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+
+}
+p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+
+
+}
+
+
+
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+
+
+}
+
+
+
+.w-100 {
+    height: 100vh;
+}
+
+
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+
+    .rectangulo {
+
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+
+    .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+  
+}
+.descripcion {
+    color: $second-color;
+    font-size: 1.2rem;
+}
+
+
+
+
+  
+
+}
+
+
+
+
+
+.contacto button {
+    color: $second-color;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25rem 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+
+    i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+    &:hover {
+    background-color: rgb(94, 130, 215);}
+}
+
+
+
+    
+
+
+/*pie de pagina*/
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+
+  i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+ &:hover {
+  color: black;
+}
+
+  &:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}}
+
+
+
+
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
